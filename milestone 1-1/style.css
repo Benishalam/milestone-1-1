@@ -1,0 +1,114 @@
+.header {
+  display: flex; /* Flex layout for row alignment */
+  align-items: center; /* Center avatar and text vertically */
+  gap: 20px; /* Space between avatar and name-title */
+  margin-bottom: 20px;
+}
+
+.avatar img {
+  width: 100px; /* Avatar size */
+  height: 100px;
+  border-radius: 50%; /* Makes the avatar circular */
+  object-fit: cover;
+  border: 2px solid #ddd; /* Optional border */
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column; /* Stack titles vertically */
+  justify-content: center; /* Center align titles */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.resume {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.photo {
+  width: 10px;
+  height: 10px;
+  border-radius: 20%;
+  margin-right: 20px;
+  border-image-width: 10px;
+  
+}
+
+.name-title h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #222;
+}
+
+.name-title h2 {
+  margin: 5px 0 0;
+  font-size: 18px;
+  color: #888;
+}
+
+.summary {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-column, .right-column {
+  padding: 20px;
+}
+
+.left-column {
+  width: 35%;
+  background: #f9f9f9;
+}
+
+.right-column {
+  width: 65%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+}
+
+.section h4 {
+  font-size: 14px;
+  color: #222;
+  margin: 10px 0 5px;
+}
